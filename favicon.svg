@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Christmas tree">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f6f3d"/>
+      <stop offset="1" stop-color="#0f3b21"/>
+    </linearGradient>
+    <radialGradient id="snow" cx="50%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="18" fill="#0d1b2a"/>
+  <rect width="128" height="64" y="64" fill="#143149"/>
+  <circle cx="98" cy="24" r="6" fill="#f5d742"/>
+  <g transform="translate(64 68)">
+    <polygon points="0,-52 34,0 -34,0" fill="url(#g)" />
+    <polygon points="0,-32 30,12 -30,12" fill="url(#g)" />
+    <polygon points="0,-12 24,24 -24,24" fill="url(#g)" />
+    <rect x="-10" y="24" width="20" height="16" rx="3" fill="#8b5a2b"/>
+  </g>
+  <g fill="#e63946">
+    <circle cx="64" cy="36" r="4"/>
+    <circle cx="48" cy="60" r="4"/>
+    <circle cx="82" cy="70" r="4"/>
+  </g>
+  <g fill="#f7b801">
+    <circle cx="74" cy="50" r="3.5"/>
+    <circle cx="56" cy="78" r="3.5"/>
+  </g>
+  <polygon points="64,18 69,30 82,30 71,38 76,50 64,42 52,50 57,38 46,30 59,30" fill="#f5d742" />
+  <rect width="128" height="128" fill="url(#snow)" />
+</svg>
